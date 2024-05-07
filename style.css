@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-img{
+    width: 350px;
+    height: 450px;
+    flex-shrink: 0;
+    display: block;
+    padding-bottom: 0;
+    border-radius: 20px;
+
+}
+.banner-container{
+    background-color:#fceef1 ;
+   
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+  
+}
+.title{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
+}
+.paragraph{
+    font-size: 18px;
+    font-family: Lato;
+    color: #aca3a5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 25px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #e55473;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about{
+    padding: 75px;
+}
+.flower{
+    text-align: center;
+    }
+    .section-title{
+        color: #272727;
+        text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .section-description{
+        color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    }
+    .section-title{
+        color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+padding-bottom: 30px;
+    }
+    .section-description{
+        color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 30px;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    min-width: 1440px;
+    min-height: 605px;
+    background-color: white;
+}
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width: 464px;
+        height: 605px;
+        padding-right: 23px;
+    }
+    .item img{
+        width: 310px;
+        min-height: 428px;
+        max-height: 428px;
+        padding: 75px;
+        padding bottom: 0%;
+        object-fit: cover;
+        border-radius: 50%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .item p{
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .section-part{
+        color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+padding-bottom: 30px;
+    }
+    .section-depo{
+        color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 100px;
+    }
+    .pink-line{
+        display: flex;
+        justify-content: space-evenly;
+        background-color:#fef6f8 ;
+    }
+    .deal{
+        text-align: center;
+
+    }
+    .hot-deal{
+        color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+    }
+    .deal-part{
+        color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+    }
+    .key-primary{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .image{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .red{
+        color: #e55473;
+    }
+    
+    .photo{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      
+            
+    }
+    .instagram{
+       margin: 200px, 100px;
+       padding-bottom: 50px;
+    }
+    .insta{
+        color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 50px;
+padding-bottom: 30px;
+    }
+    .painfull{
+        color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+    }
+    .text{
+       text-align: center; 
+       padding: 30px;
+    }
+    
+    .footer{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+}
+.foot {
+   color: #e55473;
+   font-style: normal;
+}
+.footer h3{
+    font-size: 48px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.pro{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 30px;
+}
+.pro1{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 100px;
+}
